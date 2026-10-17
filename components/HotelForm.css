@@ -1,0 +1,96 @@
+.hotel-form-container {
+    background-color: #22222f;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #2a2a35;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.hotel-form-container h3 {
+    color: #f7a8b8;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+.hotel-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.form-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.form-row .form-group {
+    flex: 1;
+    min-width: 200px;
+}
+.hotel-form label {
+    font-size: 0.9rem;
+    color: #ccc;
+    font-weight: 500;
+}
+.hotel-form input[type="text"],
+.hotel-form input[type="number"],
+.hotel-form textarea,
+.hotel-form select {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background: #1a1a24;
+    color: #fff;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+.hotel-form input:focus,
+.hotel-form textarea:focus,
+.hotel-form select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+.hotel-form textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+.hotel-form input[type="file"] {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+.image-preview-wrapper {
+    margin-top: 0.8rem;
+}
+.image-preview-wrapper p {
+    font-size: 0.85rem;
+    color: #aaa;
+    margin-bottom: 4px;
+}
+.image-preview {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #444;
+}
+.submit-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    transition: background-color 0.2s ease;
+}
+.submit-btn:hover {
+    background-color: #219653;
+}

@@ -1,0 +1,36 @@
+.hotelCard{
+    cursor:pointer;
+}
+.price{
+    font-size:0.8rem;
+    color:'#aaa';
+}
+.hotelCard .button-container {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+.hotelCard button {
+    flex: 1;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.hotelCard button:hover {
+    background-color: #2980b9;
+}
+.hotelCard button:active {
+    transform: scale(0.98);
+}
+.hotelCard .deleteButton {
+    background-color: palevioletred;
+}
+.hotelCard .deleteButton:hover {
+    background-color: rgb(203, 45, 97);
+}

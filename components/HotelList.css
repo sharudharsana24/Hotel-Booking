@@ -1,0 +1,144 @@
+.HotelList {
+  background-color: #1a1a24;
+  min-height: 100vh;
+  color:white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  background-color: #fce4d6;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  color: palevioletred;
+  margin: 0;
+  font-style: oblique;
+}
+.search {
+  border: 2px solid bisque;
+  border-radius: 6px;
+  height: 38px;
+  width: 350px;
+  padding: 0 1rem;
+  background-color: palevioletred;
+  color: white;
+  box-sizing: border-box;
+}
+.search::placeholder {
+  color: white;
+  opacity: 1;
+  font-size: medium;
+}
+.main-container {
+  display: flex;
+  flex: 1;
+  align-items: stretch;
+}
+.body {
+  width: 280px;
+  background-color: #121218;
+  padding: 1.5rem;
+  border-right: 1px solid #2a2a35;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.filter h3 {
+  color: #f7a8b8;
+  margin-top: 0;
+}
+.range {
+  margin-bottom: 1.5rem;
+}
+.range label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.price input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #333;
+  background-color: bisque;
+  color: black;
+  box-sizing: border-box;
+}
+.filterButton {
+  width: auto;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #d97788;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.filterButton:hover {
+  background-color: #c66274;
+}
+.card {
+  flex: 1;
+  padding: 2rem;
+  background-color: #1a1a24;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1.5rem;
+}
+.star-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.star-filter label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #fff;
+  cursor: pointer;
+}
+.star-filter input[type="checkbox"] {
+  accent-color: #d97788;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.hotelCard {
+  background-color: #22222f;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #2a2a35;
+  display: flex;
+  flex-direction: column;
+  min-height: 240px;
+}
+.hotelImage {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+.info {
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.info h3 {
+  margin: 0;
+  color: #f7a8b8;
+  font-size: 1rem;
+}
+.info p {
+  margin: 0;
+  font-size: 0.85rem;
+}
